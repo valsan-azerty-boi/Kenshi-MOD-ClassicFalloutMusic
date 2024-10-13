@@ -1,0 +1,9 @@
+{
+	"SoundBanks": [
+		"$(modroot \"ClassicFalloutMusic\")/audio/MT_Music_Bank.bnk",
+		"$(modroot \"ClassicFalloutMusic\")/audio/Dunes_Music_Bank.bnk",
+		"$(modroot \"ClassicFalloutMusic\")/audio/Savannah_Music_Bank.bnk",
+		"$(modroot \"ClassicFalloutMusic\")/audio/Swamplands_Music_Bank.bnk",
+		"$(modroot \"ClassicFalloutMusic\")/audio/Tarsands_Music_Bank.bnk"
+	]
+}

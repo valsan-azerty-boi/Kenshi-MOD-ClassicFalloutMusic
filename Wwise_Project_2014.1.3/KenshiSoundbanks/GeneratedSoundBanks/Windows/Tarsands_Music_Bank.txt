@@ -1,8 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	374233060	Enter_Forest_Day			\Default Work Unit\Others_Music_Bank\Enter_Forest_Day	
+	374233060	Enter_Forest_Day			\Default Work Unit\Tarsands_Music_Bank\Enter_Forest_Day	
 	393713377	Enter_Tarsands_Night			\Default Work Unit\Tarsands_Music_Bank\Enter_Tarsands_Night	
-	1356999456	Enter_Forest_Night			\Default Work Unit\Others_Music_Bank\Enter_Forest_Night	
-	2744650094	Leave_Forest			\Default Work Unit\Others_Music_Bank\Leave_Forest	
+	1356999456	Enter_Forest_Night			\Default Work Unit\Tarsands_Music_Bank\Enter_Forest_Night	
+	2744650094	Leave_Forest			\Default Work Unit\Tarsands_Music_Bank\Leave_Forest	
 	4037757403	Leave_Tarsands			\Default Work Unit\Tarsands_Music_Bank\Leave_Tarsands	
 	4268409197	Enter_Tarsands_Day			\Default Work Unit\Tarsands_Music_Bank\Enter_Tarsands_Day	
 

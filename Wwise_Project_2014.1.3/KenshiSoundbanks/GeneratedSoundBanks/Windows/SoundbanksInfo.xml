@@ -66,9 +66,12 @@
 			<IncludedEvents>
 				<Event Id="413858485" Name="Enter_Ashlands_Day"/>
 				<Event Id="69152137" Name="Enter_Ashlands_Night"/>
+				<Event Id="1247810208" Name="Enter_Canyons_Day"/>
+				<Event Id="4018900876" Name="Enter_Canyons_Night"/>
 				<Event Id="2278413084" Name="Enter_Desert_Day"/>
 				<Event Id="291784504" Name="Enter_Desert_Night"/>
 				<Event Id="3846383483" Name="Leave_Ashlands"/>
+				<Event Id="1613332308" Name="Leave_Canyons"/>
 				<Event Id="4245328538" Name="Leave_Desert"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -88,20 +91,39 @@
 					<ShortName>Worldmap2.wav</ShortName>
 					<Path>SFX\Worldmap2_DB50BAB0.wem</Path>
 				</File>
+				<File Id="963599194" Language="SFX">
+					<ShortName>Fallout Tactics - Main Menu.wav</ShortName>
+					<Path>SFX\Fallout Tactics - Main Menu_DB50BAB0.wem</Path>
+				</File>
+				<File Id="970135789" Language="SFX">
+					<ShortName>Fallout Tactics - Enviroment MNT.wav</ShortName>
+					<Path>SFX\Fallout Tactics - Enviroment MNT_DB50BAB0.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2519115762" Language="SFX">
 			<ShortName>Savannah_Music_Bank</ShortName>
 			<Path>Savannah_Music_Bank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="147444461" Name="Enter_Boneyard_Day"/>
+				<Event Id="3385640033" Name="Enter_Boneyard_Night"/>
 				<Event Id="2309286801" Name="Enter_Coast_Day"/>
 				<Event Id="1750660853" Name="Enter_Coast_Night"/>
 				<Event Id="3143081336" Name="Enter_Plains_Day"/>
 				<Event Id="533473860" Name="Enter_Plains_Night"/>
+				<Event Id="214086387" Name="Leave_Boneyard"/>
 				<Event Id="3428908557" Name="Leave_Coast"/>
 				<Event Id="2778888170" Name="Leave_Plains"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="173401944" Language="SFX">
+					<ShortName>05IndustrialJunk.wav</ShortName>
+					<Path>SFX\05IndustrialJunk_DB50BAB0.wem</Path>
+				</File>
+				<File Id="199859378" Language="SFX">
+					<ShortName>01MetallicMonks.wav</ShortName>
+					<Path>SFX\01MetallicMonks_DB50BAB0.wem</Path>
+				</File>
 				<File Id="411758817" Language="SFX">
 					<ShortName>10UndergroundTroubles.wav</ShortName>
 					<Path>SFX\10UndergroundTroubles_DB50BAB0.wem</Path>
@@ -124,25 +146,14 @@
 			<ShortName>Swamplands_Music_Bank</ShortName>
 			<Path>Swamplands_Music_Bank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="147444461" Name="Enter_Boneyard_Day"/>
-				<Event Id="3385640033" Name="Enter_Boneyard_Night"/>
 				<Event Id="71455468" Name="Enter_Jungle_Day"/>
 				<Event Id="2225123336" Name="Enter_Jungle_Night"/>
 				<Event Id="2157835841" Name="Enter_Swamplands_Day"/>
 				<Event Id="2869076709" Name="Enter_Swamplands_Night"/>
-				<Event Id="214086387" Name="Leave_Boneyard"/>
 				<Event Id="3182333694" Name="Leave_Jungle"/>
 				<Event Id="473331911" Name="Leave_Swamplands"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="173401944" Language="SFX">
-					<ShortName>05IndustrialJunk.wav</ShortName>
-					<Path>SFX\05IndustrialJunk_DB50BAB0.wem</Path>
-				</File>
-				<File Id="199859378" Language="SFX">
-					<ShortName>01MetallicMonks.wav</ShortName>
-					<Path>SFX\01MetallicMonks_DB50BAB0.wem</Path>
-				</File>
 				<File Id="304310188" Language="SFX">
 					<ShortName>13RadiationStorm.wav</ShortName>
 					<Path>SFX\13RadiationStorm_DB50BAB0.wem</Path>

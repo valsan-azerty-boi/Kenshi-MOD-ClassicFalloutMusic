@@ -1,12 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
+	147444461	Enter_Boneyard_Day			\Default Work Unit\Savannah_Music_Bank\Enter_Boneyard_Day	
+	214086387	Leave_Boneyard			\Default Work Unit\Savannah_Music_Bank\Leave_Boneyard	
 	533473860	Enter_Plains_Night			\Default Work Unit\Savannah_Music_Bank\Enter_Plains_Night	
-	1750660853	Enter_Coast_Night			\Default Work Unit\Others_Music_Bank\Enter_Coast_Night	
-	2309286801	Enter_Coast_Day			\Default Work Unit\Others_Music_Bank\Enter_Coast_Day	
+	1750660853	Enter_Coast_Night			\Default Work Unit\Savannah_Music_Bank\Enter_Coast_Night	
+	2309286801	Enter_Coast_Day			\Default Work Unit\Savannah_Music_Bank\Enter_Coast_Day	
 	2778888170	Leave_Plains			\Default Work Unit\Savannah_Music_Bank\Leave_Plains	
 	3143081336	Enter_Plains_Day			\Default Work Unit\Savannah_Music_Bank\Enter_Plains_Day	
-	3428908557	Leave_Coast			\Default Work Unit\Others_Music_Bank\Leave_Coast	
+	3385640033	Enter_Boneyard_Night			\Default Work Unit\Savannah_Music_Bank\Enter_Boneyard_Night	
+	3428908557	Leave_Coast			\Default Work Unit\Savannah_Music_Bank\Leave_Coast	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	173401944	05IndustrialJunk	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\05IndustrialJunk_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\05IndustrialJunk		2990458
+	199859378	01MetallicMonks	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\01MetallicMonks_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\01MetallicMonks		2844934
 	411758817	10UndergroundTroubles	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\10UndergroundTroubles_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\10UndergroundTroubles		3295809
 	491223752	Arroyo	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\Arroyo_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Arroyo		3428387
 	772292523	16KhansofNewCalifornia	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\16KhansofNewCalifornia_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\16KhansofNewCalifornia		3256368

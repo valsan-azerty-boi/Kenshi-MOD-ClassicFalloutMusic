@@ -459,6 +459,44 @@
 						<ActiveSource Name="04TheVaultoftheFuture" ID="{BB1044A6-7861-4060-9301-4B3BC3027277}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Fallout Tactics - Enviroment MNT" ID="{26D7CE4C-F5B1-485B-8AC2-4CFF2597060D}" ShortID="394537631" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fallout Tactics - Enviroment MNT" ID="{F3758EF7-E0B8-4989-8273-04C143387159}" ShortID="970135789">
+							<Language>SFX</Language>
+							<AudioFile>Fallout Tactics - Enviroment MNT.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fallout Tactics - Enviroment MNT" ID="{F3758EF7-E0B8-4989-8273-04C143387159}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Fallout Tactics - Main Menu" ID="{12ABE746-7621-4F98-99AE-095D69D34AD7}" ShortID="1002754798" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fallout Tactics - Main Menu" ID="{C2870F69-8156-4C00-9E14-88ABE17C154C}" ShortID="963599194">
+							<Language>SFX</Language>
+							<AudioFile>Fallout Tactics - Main Menu.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fallout Tactics - Main Menu" ID="{C2870F69-8156-4C00-9E14-88ABE17C154C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

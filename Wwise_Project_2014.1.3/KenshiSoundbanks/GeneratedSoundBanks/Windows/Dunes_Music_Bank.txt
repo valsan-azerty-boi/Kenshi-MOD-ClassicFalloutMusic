@@ -1,9 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
-	69152137	Enter_Ashlands_Night			\Default Work Unit\Others_Music_Bank\Enter_Ashlands_Night	
+	69152137	Enter_Ashlands_Night			\Default Work Unit\Dunes_Music_Bank\Enter_Ashlands_Night	
 	291784504	Enter_Desert_Night			\Default Work Unit\Dunes_Music_Bank\Enter_Desert_Night	
-	413858485	Enter_Ashlands_Day			\Default Work Unit\Others_Music_Bank\Enter_Ashlands_Day	
+	413858485	Enter_Ashlands_Day			\Default Work Unit\Dunes_Music_Bank\Enter_Ashlands_Day	
+	1247810208	Enter_Canyons_Day			\Default Work Unit\Dunes_Music_Bank\Enter_Canyons_Day	
+	1613332308	Leave_Canyons			\Default Work Unit\Dunes_Music_Bank\Leave_Canyons	
 	2278413084	Enter_Desert_Day			\Default Work Unit\Dunes_Music_Bank\Enter_Desert_Day	
-	3846383483	Leave_Ashlands			\Default Work Unit\Others_Music_Bank\Leave_Ashlands	
+	3846383483	Leave_Ashlands			\Default Work Unit\Dunes_Music_Bank\Leave_Ashlands	
+	4018900876	Enter_Canyons_Night			\Default Work Unit\Dunes_Music_Bank\Enter_Canyons_Night	
 	4245328538	Leave_Desert			\Default Work Unit\Dunes_Music_Bank\Leave_Desert	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -11,4 +14,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	457183362	NewReno	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\NewReno_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\NewReno		3185782
 	594768905	Worldmap1	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\Worldmap1_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worldmap1		1575089
 	868527054	Worldmap2	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\Worldmap2_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Worldmap2		1364422
+	963599194	Fallout Tactics - Main Menu	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\Fallout Tactics - Main Menu_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fallout Tactics - Main Menu		1316394
+	970135789	Fallout Tactics - Enviroment MNT	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\Fallout Tactics - Enviroment MNT_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fallout Tactics - Enviroment MNT		3333027
 

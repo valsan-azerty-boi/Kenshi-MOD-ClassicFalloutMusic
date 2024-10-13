@@ -17,10 +17,13 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Enter_Ashlands_Day" ID="{56DF2D13-7F19-489C-9F84-5C6C9A6975B6}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Ashlands_Night" ID="{0FE37414-3051-44F4-A9B2-3537CCB0A8AD}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Canyons" ID="{2CE1183E-FE65-4DC3-9E61-8CD742D69821}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Desert_Day" ID="{9A708360-48B5-4E73-AA49-9D78465CAFD8}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Desert_Night" ID="{EA3FAD7B-0748-455C-8220-1B3B2D263C4F}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Leave_Desert" ID="{809D06BC-C6AE-4AB0-B794-996CB64D70F2}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Canyons_Night" ID="{E31B8BBE-6CA6-4BF7-AE33-7E6CEB1CCC1B}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Leave_Ashlands" ID="{D3036EE6-8D66-413A-BF76-3CD2E6EA8266}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Canyons_Day" ID="{07D614F3-AC59-4C21-B26E-8867F6D230B5}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -30,6 +33,9 @@
 						<ObjectRef Name="Enter_Plains_Night" ID="{06D92D02-8935-4071-A90C-A2D2AD7CDFD5}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Leave_Coast" ID="{B7FFFF0F-06EA-416C-A76E-0D63E083EDB6}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Coast_Night" ID="{8C11D432-21D3-45D3-9D3B-C9A6CA91E6FE}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Boneyard_Night" ID="{A5EFDB5E-126E-4319-A518-9D847C9B8E30}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Boneyard" ID="{F2035E80-2DF6-4B49-85CF-9814A789C58E}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Boneyard_Day" ID="{35DE3697-A4A4-482E-9EA5-FF67B5C0E83B}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Plains_Day" ID="{A34212A8-D858-43BA-BD32-CA448A11110F}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Leave_Plains" ID="{6E4E9BC7-FEF9-4A3D-B101-2C19152B7024}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Coast_Day" ID="{263BDBCB-78E2-4E78-990A-6A1C06BCC0A7}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
@@ -40,10 +46,7 @@
 				<SoundBank Name="Swamplands_Music_Bank" ID="{2FDF227F-2C8C-4500-84F7-31803D0578E6}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Enter_Swamplands_Day" ID="{AECD3040-786F-48D2-9FD1-E5444420D6F5}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Enter_Boneyard_Night" ID="{A5EFDB5E-126E-4319-A518-9D847C9B8E30}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Jungle_Day" ID="{DFF9E678-C0FC-4A51-89F5-DDD540799C89}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Leave_Boneyard" ID="{F2035E80-2DF6-4B49-85CF-9814A789C58E}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Enter_Boneyard_Day" ID="{35DE3697-A4A4-482E-9EA5-FF67B5C0E83B}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Swamplands_Night" ID="{3B1EA99D-0E79-4113-A72C-A738763797C4}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Enter_Jungle_Night" ID="{40A509AD-5032-4061-B68F-3FE40CF8301D}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Leave_Swamplands" ID="{4373F5D1-3BCE-4C70-B1E8-B9E68F260268}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
