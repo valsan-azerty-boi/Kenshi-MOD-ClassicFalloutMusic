@@ -1,5 +1,5 @@
 # Kenshi-MOD-ClassicFalloutMusic
-[Nexus]() - [Steam Workshop]()
+[Nexus](https://www.nexusmods.com/kenshi/mods/1501) - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3348196865) - [GitHub](https://github.com/valsan-azerty-boi/Kenshi-MOD-ClassicFalloutMusic)
 ## What does this mod do ?
 This mod replaces Kenshi's background music with themes from classic Fallout games (1, 2 and Tactics).
 
