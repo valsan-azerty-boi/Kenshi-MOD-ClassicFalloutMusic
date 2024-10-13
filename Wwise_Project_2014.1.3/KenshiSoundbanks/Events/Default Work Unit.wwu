@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" SchemaVersion="69">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MT_Music_Bank" ID="{5310EC89-5FC7-461B-82F2-872B388EE0AD}" ShortID="814494031">
+					<ChildrenList>
+						<Event Name="Boot_Up_Game" ID="{8CE45F3E-AE7C-4B39-9B1C-43CF60AF7BCC}">
+							<ChildrenList>
+								<Action Name="Play" ID="{733FE283-F0BB-4FB5-B17F-7E8D4B8CED02}" ShortID="950820694" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0AE00A58-756D-4F90-A2E0-A07780D8C890}" Global="false">
+											<ObjectRef Name="11CityofLostAngels" ID="{774B394F-7307-448A-BD28-589CD7EC322C}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Create_or_Load_Game" ID="{7C7AE388-F2C2-4E72-AD51-8F87914C22B4}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{E1347C2B-071F-41EF-9087-429DD823311C}" ShortID="447775885" Type="Stop" Scope="One" Global="true">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{3F793990-B21A-44D5-B5E8-5D0F06C2D943}" Global="true">
+											<ObjectRef Name="11CityofLostAngels" ID="{774B394F-7307-448A-BD28-589CD7EC322C}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume_Game" ID="{5FA5DA85-E211-46C0-9CF7-3969F5F744DA}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{D780EA5B-F729-429B-BB72-D329D1EA8E0E}" ShortID="4173646" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{49D5B88A-9B1D-49ED-B962-D25B3A71136E}" Global="false">
+											<ObjectRef Name="11CityofLostAngels" ID="{774B394F-7307-448A-BD28-589CD7EC322C}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause_Game" ID="{42A400B3-E1AD-4913-AF9E-FA7ABD7D794B}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{BEAC9B97-EBF2-4698-BF23-5A145EB53800}" ShortID="219933218" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E0707B71-39E4-4016-B63A-1B0ED313C92F}" Global="false">
+											<ObjectRef Name="11CityofLostAngels" ID="{774B394F-7307-448A-BD28-589CD7EC322C}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dunes_Music_Bank" ID="{DFF1896A-1C94-402C-BE85-FFED79E18C6D}" ShortID="258437808">
+					<ChildrenList>
+						<Event Name="Leave_Desert" ID="{809D06BC-C6AE-4AB0-B794-996CB64D70F2}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{607ECEAC-E409-4525-B38C-2F47264D07D8}" ShortID="428206479" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1E530CF0-AD8B-4943-9261-4A60EB9B54D1}" Global="false">
+											<ObjectRef Name="Worldmap1" ID="{F1800EB8-C6AC-4D0B-84AE-6A83B047ADE9}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{A638A4C9-FDC9-48F9-97C4-C2082DD72807}" ShortID="642186741" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{F24C8349-EBC1-436C-A4A7-4F4895086215}" Global="false">
+											<ObjectRef Name="Worldmap2" ID="{D1323105-DF23-4AAD-A3C4-A8078A3A9C18}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Desert_Day" ID="{9A708360-48B5-4E73-AA49-9D78465CAFD8}">
+							<ChildrenList>
+								<Action Name="Play" ID="{740B5F14-ED47-498A-AD1C-6A4337564872}" ShortID="528557756" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{962B36EA-D730-4F9B-9C54-8A7DE73B052F}" Global="false">
+											<ObjectRef Name="Worldmap2" ID="{D1323105-DF23-4AAD-A3C4-A8078A3A9C18}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{31A60F99-C2EF-4C9F-A0CF-3CB3916E6501}" ShortID="590617575" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{0236C0B8-F9A7-4B40-BDDA-041FEAF61902}" Global="false">
+											<ObjectRef Name="Worldmap1" ID="{F1800EB8-C6AC-4D0B-84AE-6A83B047ADE9}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Desert_Night" ID="{EA3FAD7B-0748-455C-8220-1B3B2D263C4F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{2D8D1668-1E43-48D4-903D-2A931C4C4144}" ShortID="771812063" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D28818A6-7A02-43A8-8209-5646CC8ED88B}" Global="false">
+											<ObjectRef Name="Worldmap1" ID="{F1800EB8-C6AC-4D0B-84AE-6A83B047ADE9}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{D3BB1B4D-9D13-41BF-9A73-3729BC488E2D}" ShortID="792428846" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{028FB065-F2B9-46CA-9070-763CF888DF5C}" Global="false">
+											<ObjectRef Name="Worldmap2" ID="{D1323105-DF23-4AAD-A3C4-A8078A3A9C18}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Savannah_Music_Bank" ID="{567B269F-3C76-4513-8B88-C6022BAFAEFA}" ShortID="910556387">
+					<ChildrenList>
+						<Event Name="Enter_Plains_Day" ID="{A34212A8-D858-43BA-BD32-CA448A11110F}">
+							<ChildrenList>
+								<Action Name="Play" ID="{61631626-5044-42EE-BDF5-5F1B3F6C3133}" ShortID="663134939" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{7EB4D54C-72FF-4197-BD71-B33845D3353D}" Global="false">
+											<ObjectRef Name="Arroyo" ID="{BB26CBE7-3A90-4885-86DB-263C4350CD1A}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{DAF2B104-3750-4E53-A0E7-ECBBED32AB66}" ShortID="64626400" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{38774B0C-D7A5-48FA-BDDB-E0FD4ABF1A2C}" Global="false">
+											<ObjectRef Name="16KhansofNewCalifornia" ID="{2E1AC1F8-D620-4BA3-8BC8-7DD4CDC46B42}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Plains_Night" ID="{06D92D02-8935-4071-A90C-A2D2AD7CDFD5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D9EE9B3A-802D-4809-80AF-C0F9A35CCA42}" ShortID="370167613" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A08176CD-5F70-465B-BAE2-948470D78118}" Global="false">
+											<ObjectRef Name="16KhansofNewCalifornia" ID="{2E1AC1F8-D620-4BA3-8BC8-7DD4CDC46B42}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{1EC7C31D-7192-42D1-BA98-D5A82A2900EC}" ShortID="829387076" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2C082C09-94E0-4F4E-80A7-FA0A5FC6BA56}" Global="false">
+											<ObjectRef Name="Arroyo" ID="{BB26CBE7-3A90-4885-86DB-263C4350CD1A}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Plains" ID="{6E4E9BC7-FEF9-4A3D-B101-2C19152B7024}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{DF322909-822E-4DEB-A79D-9DA574D74136}" ShortID="105501026" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{D4DC3E26-DA10-4900-8186-8DBC720242F7}" Global="false">
+											<ObjectRef Name="16KhansofNewCalifornia" ID="{2E1AC1F8-D620-4BA3-8BC8-7DD4CDC46B42}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{F3ACDA1A-C62D-450A-B40F-0AF233F2B6F7}" ShortID="466310216" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{EC2FB3D4-4F81-455F-8006-FD159A424323}" Global="false">
+											<ObjectRef Name="Arroyo" ID="{BB26CBE7-3A90-4885-86DB-263C4350CD1A}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Swamplands_Music_Bank" ID="{DB2B1DEF-BAE6-4CC7-AF4B-547D81EF9B19}" ShortID="597132148">
+					<ChildrenList>
+						<Event Name="Enter_Swamplands_Day" ID="{AECD3040-786F-48D2-9FD1-E5444420D6F5}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B76F3B46-C296-47C1-B9F7-B8223AA193F8}" ShortID="325872009" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FD12E156-5227-4B61-804D-F7F18A46F737}" Global="false">
+											<ObjectRef Name="09SecondChance" ID="{69916F29-06A4-4D64-9D9A-2B42E4563216}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{AAF2CF16-E484-4536-8CD3-38731ED7C1F2}" ShortID="568366828" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2C2ECD24-D7EA-49D1-B07A-FF935AA6AC70}" Global="false">
+											<ObjectRef Name="06MoribundWorld" ID="{58DBFB0E-5373-40F5-97F2-81820A1A3D7F}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Swamplands_Night" ID="{3B1EA99D-0E79-4113-A72C-A738763797C4}">
+							<ChildrenList>
+								<Action Name="Play" ID="{D706CBA3-D0A8-415C-9E3D-50C090563076}" ShortID="255594283" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{99D6B965-F0BD-4284-8037-15F31F1883B4}" Global="false">
+											<ObjectRef Name="06MoribundWorld" ID="{58DBFB0E-5373-40F5-97F2-81820A1A3D7F}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{D9243C66-3E9F-47E6-83EA-83FF267F4A19}" ShortID="541141424" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1C267335-AA28-41D4-A47B-668FFA9CB53B}" Global="false">
+											<ObjectRef Name="09SecondChance" ID="{69916F29-06A4-4D64-9D9A-2B42E4563216}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Swamplands" ID="{4373F5D1-3BCE-4C70-B1E8-B9E68F260268}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{0797158D-D7CF-46FF-8065-063E422CA787}" ShortID="350816981" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{6AC6BE7E-9F1D-45FD-BA71-B8B9E78719F8}" Global="false">
+											<ObjectRef Name="09SecondChance" ID="{69916F29-06A4-4D64-9D9A-2B42E4563216}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{E7F93E27-C1D1-4014-B807-F0C27A514701}" ShortID="908706266" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{FF0790A6-3872-455D-83A8-28D02775F82E}" Global="false">
+											<ObjectRef Name="06MoribundWorld" ID="{58DBFB0E-5373-40F5-97F2-81820A1A3D7F}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tarsands_Music_Bank" ID="{3A066690-2866-462F-85F5-F618DF5B51AE}" ShortID="124762608">
+					<ChildrenList>
+						<Event Name="Enter_Tarsands_Day" ID="{EF1C7CB0-A9CE-4E63-8302-96A565AB81EF}">
+							<ChildrenList>
+								<Action Name="Play" ID="{6FE070B6-3D34-45A7-B6AE-F09190739EF8}" ShortID="614431745" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{ED6677D9-623A-4D51-B358-3F409776C233}" Global="false">
+											<ObjectRef Name="15FlameoftheAncientWorld" ID="{83F14C27-CAF1-4F15-A378-B9C650AB3CC1}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{63B8F690-2594-48A5-9E68-2EF36DD0F9E0}" ShortID="136837652" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9748E653-A87C-46AE-AE20-8A56986C2490}" Global="false">
+											<ObjectRef Name="14AcolytesoftheNewgod" ID="{287713C0-4055-48A6-A17A-D2FCEC733F14}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Tarsands_Night" ID="{875A17B5-2B83-4F51-B7C3-0ACB967E8859}">
+							<ChildrenList>
+								<Action Name="Play" ID="{421E92FB-9E76-4500-BF24-084890D78694}" ShortID="347779951" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E0D55F00-36FB-4948-BB7B-28A600EBD1A3}" Global="false">
+											<ObjectRef Name="14AcolytesoftheNewgod" ID="{287713C0-4055-48A6-A17A-D2FCEC733F14}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{70B26582-FB94-4C28-A437-E0B881642A7B}" ShortID="594353673" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B5859FB1-5EBE-46A9-8F18-D16A9D5965BE}" Global="false">
+											<ObjectRef Name="15FlameoftheAncientWorld" ID="{83F14C27-CAF1-4F15-A378-B9C650AB3CC1}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Tarsands" ID="{721797DE-E548-4D96-B56C-D2D880B6E9B1}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{EA589AF9-EB72-45BF-AB62-83C928E08F13}" ShortID="504877696" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{622BA47A-8756-4957-9EBB-D44283E73FC1}" Global="false">
+											<ObjectRef Name="14AcolytesoftheNewgod" ID="{287713C0-4055-48A6-A17A-D2FCEC733F14}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{D1D3223E-BAD5-4E8C-8A75-F3AEEC16BE83}" ShortID="1070870039" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{256846C9-7948-483D-9A3B-AD9FABAC7534}" Global="false">
+											<ObjectRef Name="15FlameoftheAncientWorld" ID="{83F14C27-CAF1-4F15-A378-B9C650AB3CC1}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Others_Music_Bank" ID="{43E51432-166C-4D25-9D06-83B3A3964A26}" ShortID="942199948">
+					<ChildrenList>
+						<Event Name="Enter_Boneyard_Day" ID="{35DE3697-A4A4-482E-9EA5-FF67B5C0E83B}">
+							<ChildrenList>
+								<Action Name="Play" ID="{B882CF1E-FC78-4715-9AED-9AA49E153F15}" ShortID="444939558" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{77EB7962-9EFE-4113-98D2-5EEF5E9B7B7A}" Global="false">
+											<ObjectRef Name="01MetallicMonks" ID="{43BDC0DB-BD18-4525-B18E-E0D1EC51F210}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{DDFA8544-83EE-4DF1-9804-44B5C18AC29F}" ShortID="1058618168" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9994E232-08DE-4F04-B468-1B6B369F1465}" Global="false">
+											<ObjectRef Name="05IndustrialJunk" ID="{F4DE43CC-83E8-4827-9250-73E5D37A50C8}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Boneyard_Night" ID="{A5EFDB5E-126E-4319-A518-9D847C9B8E30}">
+							<ChildrenList>
+								<Action Name="Play" ID="{54174800-08C4-4E80-BE47-23E1006F423B}" ShortID="709986132" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{149C5C2D-E398-4B49-95BA-2D077A44DC9A}" Global="false">
+											<ObjectRef Name="05IndustrialJunk" ID="{F4DE43CC-83E8-4827-9250-73E5D37A50C8}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{BC5A1F45-ABB0-4E35-BAFF-BB2E4B6A9865}" ShortID="190987926" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{22BC992F-851C-4355-9101-0EAD72D98C98}" Global="false">
+											<ObjectRef Name="01MetallicMonks" ID="{43BDC0DB-BD18-4525-B18E-E0D1EC51F210}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Boneyard" ID="{F2035E80-2DF6-4B49-85CF-9814A789C58E}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{328020B3-49D7-44E5-B2C3-3D34EEF90532}" ShortID="1052131505" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{742163A7-3AA7-4CC7-9DE7-4B557613999D}" Global="false">
+											<ObjectRef Name="01MetallicMonks" ID="{43BDC0DB-BD18-4525-B18E-E0D1EC51F210}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{B2104645-45A0-401B-94EB-87D2B0EAF26B}" ShortID="120167590" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C782E8FF-6108-49F7-80D3-5998643E1BBA}" Global="false">
+											<ObjectRef Name="05IndustrialJunk" ID="{F4DE43CC-83E8-4827-9250-73E5D37A50C8}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Forest_Day" ID="{4E10810E-8A8F-4A4C-9F10-5BEDB06344C8}">
+							<ChildrenList>
+								<Action Name="Play" ID="{1DB1D8D7-0EBE-4565-A112-C7BF1E4E2FFC}" ShortID="5723616" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{144567A5-B41A-4A8B-A3BF-23D516105E41}" Global="false">
+											<ObjectRef Name="02DesertWind" ID="{FD3985D5-0137-40D2-B14A-E1932F70EE9E}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{F3DE6864-A8AD-4277-B8AA-BD22E3F4694C}" ShortID="549351825" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{63C052A9-E190-434A-A371-C4BF1E249B30}" Global="false">
+											<ObjectRef Name="08CityoftheDead" ID="{0A2F233A-BC37-4A3A-9068-50229736F3FE}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Forest_Night" ID="{1ECC176D-FCBB-4A6C-9162-C9D5345D5138}">
+							<ChildrenList>
+								<Action Name="Play" ID="{4C49A9B7-3070-49DF-84ED-71F067AC419D}" ShortID="385188641" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{B469B903-6FA4-44C6-98DC-F76296EA4BF3}" Global="false">
+											<ObjectRef Name="08CityoftheDead" ID="{0A2F233A-BC37-4A3A-9068-50229736F3FE}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{8442BD02-9D99-4DDF-A409-3C6E7C10D93C}" ShortID="948620393" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{1888D784-06AE-46B4-96E5-7BF9ED6627A5}" Global="false">
+											<ObjectRef Name="02DesertWind" ID="{FD3985D5-0137-40D2-B14A-E1932F70EE9E}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Forest" ID="{C07F7893-0774-45F4-B703-DBF790E4A22F}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{23BAD378-8BB6-452D-BDE8-44AD96814479}" ShortID="592851170" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{179FA580-85DA-4809-8F0D-7ED58F10E3E7}" Global="false">
+											<ObjectRef Name="02DesertWind" ID="{FD3985D5-0137-40D2-B14A-E1932F70EE9E}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{88193928-7A2A-4625-A86F-08EEECC98482}" ShortID="1070244468" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{28C649C0-7DC8-4AA5-A211-2A110ECDD9C2}" Global="false">
+											<ObjectRef Name="08CityoftheDead" ID="{0A2F233A-BC37-4A3A-9068-50229736F3FE}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Coast_Day" ID="{263BDBCB-78E2-4E78-990A-6A1C06BCC0A7}">
+							<ChildrenList>
+								<Action Name="Play" ID="{6265F53D-32FC-4D3E-A24A-11F82DBBEB4F}" ShortID="1031718181" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{36081AA0-8B23-402A-80FF-A02A7CE4CBF4}" Global="false">
+											<ObjectRef Name="10UndergroundTroubles" ID="{EBC7629F-E3B0-4B18-AAEE-991D92402519}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{C93DD09C-A470-400B-BE47-C080D1AC4628}" ShortID="580108304" Type="Stop" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{B1D4496A-DF9C-4FF9-9FEA-6B078FFF2981}" Global="false">
+											<ObjectRef Name="07VatsofGoo" ID="{5BC49714-52AA-49ED-BC7C-A952668C2836}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Coast_Night" ID="{8C11D432-21D3-45D3-9D3B-C9A6CA91E6FE}">
+							<ChildrenList>
+								<Action Name="Play" ID="{E7C9906C-4C41-4572-AB88-F555D1962CE1}" ShortID="1073241719" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{72F0FFA6-863A-4CB7-8C78-3868C8EA7C39}" Global="false">
+											<ObjectRef Name="07VatsofGoo" ID="{5BC49714-52AA-49ED-BC7C-A952668C2836}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{863A315B-6242-45EA-A9B1-0A7B8E7936CE}" ShortID="241577997" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C7310C7E-2E1B-4530-B1CE-7EBCD5A6F221}" Global="false">
+											<ObjectRef Name="10UndergroundTroubles" ID="{EBC7629F-E3B0-4B18-AAEE-991D92402519}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Coast" ID="{B7FFFF0F-06EA-416C-A76E-0D63E083EDB6}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{9E352DA0-2E1D-4941-828D-6163ABB0CFB0}" ShortID="459848798" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DEE5937F-9A33-4DE0-AB20-0B0F8DCE354A}" Global="false">
+											<ObjectRef Name="07VatsofGoo" ID="{5BC49714-52AA-49ED-BC7C-A952668C2836}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{2B0E6C90-32B7-457B-98C0-704E553620EB}" ShortID="66880219" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{9FDE8A1E-2B4E-4826-951D-04D73BD9989B}" Global="false">
+											<ObjectRef Name="10UndergroundTroubles" ID="{EBC7629F-E3B0-4B18-AAEE-991D92402519}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Jungle_Night" ID="{40A509AD-5032-4061-B68F-3FE40CF8301D}">
+							<ChildrenList>
+								<Action Name="Play" ID="{C7588F58-BE53-4C5D-98ED-E74C4BA83208}" ShortID="217480269" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{2EEBDB9A-2E33-46ED-ABE0-B1CE4DB67B5E}" Global="false">
+											<ObjectRef Name="Modoc" ID="{ACF73858-79FA-4F12-AAD5-971B4650EE69}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{086E5D0F-8D2E-4BCD-A412-8C0F5B2A4853}" ShortID="932141395" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{AEF6FD49-B3BA-4F98-BC7A-C311BBAF273A}" Global="false">
+											<ObjectRef Name="13RadiationStorm" ID="{095F2835-2E7E-4810-804A-6F91104439D3}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Jungle_Day" ID="{DFF9E678-C0FC-4A51-89F5-DDD540799C89}">
+							<ChildrenList>
+								<Action Name="Play" ID="{5E569CB8-4762-4E96-BD0F-2F5884598DB0}" ShortID="189225967" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A7F0F7F6-3BCE-470E-9717-6260B21B7DF1}" Global="false">
+											<ObjectRef Name="13RadiationStorm" ID="{095F2835-2E7E-4810-804A-6F91104439D3}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{477BE433-10CA-4072-A9F4-69CDD2F4A809}" ShortID="93211547" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{754CC8FC-1A72-467D-BA33-BB6BF1F8B733}" Global="false">
+											<ObjectRef Name="Modoc" ID="{ACF73858-79FA-4F12-AAD5-971B4650EE69}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Jungle" ID="{775333DA-5C27-41A7-BA1B-EDCF18A17E62}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{D765805F-E625-4569-8EF4-F01339536239}" ShortID="35145457" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{DB423409-5135-4050-A76C-DD94CFAEF05F}" Global="false">
+											<ObjectRef Name="13RadiationStorm" ID="{095F2835-2E7E-4810-804A-6F91104439D3}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{F3ECC341-D79E-4C45-BCE2-919ECB9B0A65}" ShortID="1044756660" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{C7F30770-81EF-4958-ABFF-5F9C4988CCA7}" Global="false">
+											<ObjectRef Name="Modoc" ID="{ACF73858-79FA-4F12-AAD5-971B4650EE69}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Ashlands_Night" ID="{0FE37414-3051-44F4-A9B2-3537CCB0A8AD}">
+							<ChildrenList>
+								<Action Name="Play" ID="{03A105F4-E142-4F17-B9F9-513B8596AA85}" ShortID="582868867" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{E76FD8E3-9216-4CE6-926D-786DCA7F3CDA}" Global="false">
+											<ObjectRef Name="Redding" ID="{56D6D828-494D-4E3B-A6A1-685A30837150}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{375399B2-D504-41E7-ABF4-7E1542E098FE}" ShortID="351452492" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A0987E38-32EA-4F82-B5A8-30BDC1AA4B79}" Global="false">
+											<ObjectRef Name="NewReno" ID="{9189500E-56FC-4045-870B-D4DFBEC3A14E}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Leave_Ashlands" ID="{D3036EE6-8D66-413A-BF76-3CD2E6EA8266}">
+							<ChildrenList>
+								<Action Name="Stop" ID="{F115C93A-2617-403E-8E97-BDE09DD9C1CA}" ShortID="604874719" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{7F9195EC-7AF9-4622-ACE1-6A6FC200FD98}" Global="false">
+											<ObjectRef Name="NewReno" ID="{9189500E-56FC-4045-870B-D4DFBEC3A14E}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{B566537F-047E-4E14-B42E-92A16E80E9AD}" ShortID="753704273" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{28C10774-D269-454E-A0AC-DC4E8FA97A50}" Global="false">
+											<ObjectRef Name="Redding" ID="{56D6D828-494D-4E3B-A6A1-685A30837150}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enter_Ashlands_Day" ID="{56DF2D13-7F19-489C-9F84-5C6C9A6975B6}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AA8EBA41-7289-4493-800E-C907CCB7191D}" ShortID="355213025" Type="Play" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="10"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{5FED85D2-4FE6-4E45-9B11-F25DE6E84A53}" Global="false">
+											<ObjectRef Name="NewReno" ID="{9189500E-56FC-4045-870B-D4DFBEC3A14E}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+								<Action Name="Stop" ID="{864B1065-2AF5-429A-BF03-E9BCC5FEDC9F}" ShortID="160559883" Type="Stop" Scope="One" Global="false">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ElementList>
+										<Element ID="{A72D965D-AEE6-4BD3-8C07-7C259735186B}" Global="false">
+											<ObjectRef Name="Redding" ID="{56D6D828-494D-4E3B-A6A1-685A30837150}" WorkUnitID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

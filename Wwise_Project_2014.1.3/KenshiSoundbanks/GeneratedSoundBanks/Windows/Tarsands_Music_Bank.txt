@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	374233060	Enter_Forest_Day			\Default Work Unit\Others_Music_Bank\Enter_Forest_Day	
+	393713377	Enter_Tarsands_Night			\Default Work Unit\Tarsands_Music_Bank\Enter_Tarsands_Night	
+	1356999456	Enter_Forest_Night			\Default Work Unit\Others_Music_Bank\Enter_Forest_Night	
+	2744650094	Leave_Forest			\Default Work Unit\Others_Music_Bank\Leave_Forest	
+	4037757403	Leave_Tarsands			\Default Work Unit\Tarsands_Music_Bank\Leave_Tarsands	
+	4268409197	Enter_Tarsands_Day			\Default Work Unit\Tarsands_Music_Bank\Enter_Tarsands_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	164439697	15FlameoftheAncientWorld	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\15FlameoftheAncientWorld_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\15FlameoftheAncientWorld		2734759
+	794718253	14AcolytesoftheNewgod	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\14AcolytesoftheNewgod_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\14AcolytesoftheNewgod		3009026
+	810294763	08CityoftheDead	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\08CityoftheDead_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\08CityoftheDead		2832128
+	1054828289	02DesertWind	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\02DesertWind_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\02DesertWind		2781642
+

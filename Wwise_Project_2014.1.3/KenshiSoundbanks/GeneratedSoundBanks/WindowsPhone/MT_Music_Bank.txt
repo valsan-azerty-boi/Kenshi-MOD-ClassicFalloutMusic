@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2104026096	Boot_Up_Game			\Default Work Unit\Boot_Up_Game	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1044330993	newvegas_endslide	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\WindowsPhone\SFX\newvegas_endslide_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\newvegas_endslide		1070463
+

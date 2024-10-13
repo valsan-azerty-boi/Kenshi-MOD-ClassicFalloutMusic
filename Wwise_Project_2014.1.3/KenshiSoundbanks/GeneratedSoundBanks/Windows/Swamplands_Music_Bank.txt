@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	71455468	Enter_Jungle_Day			\Default Work Unit\Others_Music_Bank\Enter_Jungle_Day	
+	147444461	Enter_Boneyard_Day			\Default Work Unit\Others_Music_Bank\Enter_Boneyard_Day	
+	214086387	Leave_Boneyard			\Default Work Unit\Others_Music_Bank\Leave_Boneyard	
+	473331911	Leave_Swamplands			\Default Work Unit\Swamplands_Music_Bank\Leave_Swamplands	
+	2157835841	Enter_Swamplands_Day			\Default Work Unit\Swamplands_Music_Bank\Enter_Swamplands_Day	
+	2225123336	Enter_Jungle_Night			\Default Work Unit\Others_Music_Bank\Enter_Jungle_Night	
+	2869076709	Enter_Swamplands_Night			\Default Work Unit\Swamplands_Music_Bank\Enter_Swamplands_Night	
+	3182333694	Leave_Jungle			\Default Work Unit\Others_Music_Bank\Leave_Jungle	
+	3385640033	Enter_Boneyard_Night			\Default Work Unit\Others_Music_Bank\Enter_Boneyard_Night	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	173401944	05IndustrialJunk	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\05IndustrialJunk_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\05IndustrialJunk		2990458
+	199859378	01MetallicMonks	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\01MetallicMonks_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\01MetallicMonks		2844934
+	304310188	13RadiationStorm	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\13RadiationStorm_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\13RadiationStorm		3495503
+	344414186	06MoribundWorld	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\06MoribundWorld_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\06MoribundWorld		2878511
+	865752233	Modoc	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\Modoc_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Modoc		3100079
+	943926152	09SecondChance	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\09SecondChance_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\09SecondChance		3292120
+

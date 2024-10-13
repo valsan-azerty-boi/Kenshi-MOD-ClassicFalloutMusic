@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}" SchemaVersion="69">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2241BAC7-1244-46E5-B276-03C5D5694BFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Modoc" ID="{ACF73858-79FA-4F12-AAD5-971B4650EE69}" ShortID="173093616" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Modoc" ID="{1DD00C34-F795-498E-BF0B-E7BDB961552B}" ShortID="865752233">
+							<Language>SFX</Language>
+							<AudioFile>Modoc.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Modoc" ID="{1DD00C34-F795-498E-BF0B-E7BDB961552B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Arroyo" ID="{BB26CBE7-3A90-4885-86DB-263C4350CD1A}" ShortID="1061457490" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Arroyo" ID="{AF63EBCC-4BCA-4E65-A9FF-C4F4E8D0BA29}" ShortID="491223752">
+							<Language>SFX</Language>
+							<AudioFile>Arroyo.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Arroyo" ID="{AF63EBCC-4BCA-4E65-A9FF-C4F4E8D0BA29}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="16KhansofNewCalifornia" ID="{2E1AC1F8-D620-4BA3-8BC8-7DD4CDC46B42}" ShortID="432417439" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="16KhansofNewCalifornia" ID="{B7D1BDD3-8C28-4594-AF7C-88E4CA543E00}" ShortID="772292523">
+							<Language>SFX</Language>
+							<AudioFile>16KhansofNewCalifornia.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="16KhansofNewCalifornia" ID="{B7D1BDD3-8C28-4594-AF7C-88E4CA543E00}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SanFrancisco" ID="{D8948090-428F-4D3A-BAC4-4C6AB6F23CF6}" ShortID="865790187" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SanFrancisco" ID="{0EFABCB7-B185-4EB0-B75A-46203D8A9E7C}" ShortID="679770635">
+							<Language>SFX</Language>
+							<AudioFile>SanFrancisco.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SanFrancisco" ID="{0EFABCB7-B185-4EB0-B75A-46203D8A9E7C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Redding" ID="{56D6D828-494D-4E3B-A6A1-685A30837150}" ShortID="1002472843" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Redding" ID="{A7B21854-8F12-44B8-B7D0-6E56165D87FB}" ShortID="103194199">
+							<Language>SFX</Language>
+							<AudioFile>Redding.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Redding" ID="{A7B21854-8F12-44B8-B7D0-6E56165D87FB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="VaultCity" ID="{CB9FDB27-3182-47FA-8679-6114D4910C50}" ShortID="835733936" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="VaultCity" ID="{45519ABA-D262-473F-B000-1C64B71A151F}" ShortID="738627707">
+							<Language>SFX</Language>
+							<AudioFile>VaultCity.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="VaultCity" ID="{45519ABA-D262-473F-B000-1C64B71A151F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="NewReno" ID="{9189500E-56FC-4045-870B-D4DFBEC3A14E}" ShortID="661800864" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="NewReno" ID="{2A1E8FAF-3CA6-4C03-B84E-F2F69C2E6CA7}" ShortID="457183362">
+							<Language>SFX</Language>
+							<AudioFile>NewReno.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="NewReno" ID="{2A1E8FAF-3CA6-4C03-B84E-F2F69C2E6CA7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Worldmap2" ID="{D1323105-DF23-4AAD-A3C4-A8078A3A9C18}" ShortID="240455826" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Worldmap2" ID="{7D5A65F0-F5DC-441E-BA37-7B50F4DD9072}" ShortID="868527054">
+							<Language>SFX</Language>
+							<AudioFile>Worldmap2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Worldmap2" ID="{7D5A65F0-F5DC-441E-BA37-7B50F4DD9072}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Worldmap1" ID="{F1800EB8-C6AC-4D0B-84AE-6A83B047ADE9}" ShortID="414175608" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Worldmap1" ID="{77E00DD8-A950-4D48-AA10-C03FCFD80461}" ShortID="594768905">
+							<Language>SFX</Language>
+							<AudioFile>Worldmap1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Worldmap1" ID="{77E00DD8-A950-4D48-AA10-C03FCFD80461}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="02DesertWind" ID="{FD3985D5-0137-40D2-B14A-E1932F70EE9E}" ShortID="825735029" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="02DesertWind" ID="{A1465DD8-036F-4602-B20D-BA6C77818625}" ShortID="1054828289">
+							<Language>SFX</Language>
+							<AudioFile>02DesertWind.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="02DesertWind" ID="{A1465DD8-036F-4602-B20D-BA6C77818625}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="05IndustrialJunk" ID="{F4DE43CC-83E8-4827-9250-73E5D37A50C8}" ShortID="514486079" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="05IndustrialJunk" ID="{6BDD3141-9B17-41E8-A47A-89E12692E674}" ShortID="173401944">
+							<Language>SFX</Language>
+							<AudioFile>05IndustrialJunk.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="05IndustrialJunk" ID="{6BDD3141-9B17-41E8-A47A-89E12692E674}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="07VatsofGoo" ID="{5BC49714-52AA-49ED-BC7C-A952668C2836}" ShortID="504302867" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="07VatsofGoo" ID="{2707E80A-2C3C-4CB3-840F-E2343FC78904}" ShortID="890297917">
+							<Language>SFX</Language>
+							<AudioFile>07VatsofGoo.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="07VatsofGoo" ID="{2707E80A-2C3C-4CB3-840F-E2343FC78904}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="10UndergroundTroubles" ID="{EBC7629F-E3B0-4B18-AAEE-991D92402519}" ShortID="362098292" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="10UndergroundTroubles" ID="{2BB94C3D-043C-43AF-A8E8-F23C38D71000}" ShortID="411758817">
+							<Language>SFX</Language>
+							<AudioFile>10UndergroundTroubles.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="10UndergroundTroubles" ID="{2BB94C3D-043C-43AF-A8E8-F23C38D71000}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="08CityoftheDead" ID="{0A2F233A-BC37-4A3A-9068-50229736F3FE}" ShortID="330057970" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="08CityoftheDead" ID="{5B3E89F4-2204-41A2-B44B-967C4143DAAE}" ShortID="810294763">
+							<Language>SFX</Language>
+							<AudioFile>08CityoftheDead.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="08CityoftheDead" ID="{5B3E89F4-2204-41A2-B44B-967C4143DAAE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="12FollowersCredo" ID="{287E5519-BB40-4044-A33B-24EF1E8FE76B}" ShortID="192554371" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="12FollowersCredo" ID="{4503924C-ACA3-43FE-8C2D-1480ED2B3A42}" ShortID="613773504">
+							<Language>SFX</Language>
+							<AudioFile>12FollowersCredo.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="12FollowersCredo" ID="{4503924C-ACA3-43FE-8C2D-1480ED2B3A42}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="13RadiationStorm" ID="{095F2835-2E7E-4810-804A-6F91104439D3}" ShortID="354826259" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="13RadiationStorm" ID="{406E76C6-65FE-409B-BEA1-82B8A1C32814}" ShortID="304310188">
+							<Language>SFX</Language>
+							<AudioFile>13RadiationStorm.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="13RadiationStorm" ID="{406E76C6-65FE-409B-BEA1-82B8A1C32814}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="01MetallicMonks" ID="{43BDC0DB-BD18-4525-B18E-E0D1EC51F210}" ShortID="678670343" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="01MetallicMonks" ID="{78BCEE89-38EA-42C3-BA27-E3E979E00ADF}" ShortID="199859378">
+							<Language>SFX</Language>
+							<AudioFile>01MetallicMonks.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="01MetallicMonks" ID="{78BCEE89-38EA-42C3-BA27-E3E979E00ADF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="09SecondChance" ID="{69916F29-06A4-4D64-9D9A-2B42E4563216}" ShortID="679412285" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="09SecondChance" ID="{B45FD194-6C27-4E28-AA2E-DD41C95C3103}" ShortID="943926152">
+							<Language>SFX</Language>
+							<AudioFile>09SecondChance.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="09SecondChance" ID="{B45FD194-6C27-4E28-AA2E-DD41C95C3103}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="14AcolytesoftheNewgod" ID="{287713C0-4055-48A6-A17A-D2FCEC733F14}" ShortID="188046090" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="14AcolytesoftheNewgod" ID="{5198698C-035D-4DD4-B786-CC28B235744B}" ShortID="794718253">
+							<Language>SFX</Language>
+							<AudioFile>14AcolytesoftheNewgod.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="14AcolytesoftheNewgod" ID="{5198698C-035D-4DD4-B786-CC28B235744B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="15FlameoftheAncientWorld" ID="{83F14C27-CAF1-4F15-A378-B9C650AB3CC1}" ShortID="800582323" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="15FlameoftheAncientWorld" ID="{8724E3C8-2EF1-40F4-8EA4-C7FA39C44D6E}" ShortID="164439697">
+							<Language>SFX</Language>
+							<AudioFile>15FlameoftheAncientWorld.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="15FlameoftheAncientWorld" ID="{8724E3C8-2EF1-40F4-8EA4-C7FA39C44D6E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="03ATradersLife" ID="{B4148006-FB46-4D3D-A06F-4288A4F8F151}" ShortID="155576357" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="03ATradersLife" ID="{90E9DB5D-BB17-4820-8420-F0693BE04ADE}" ShortID="564633359">
+							<Language>SFX</Language>
+							<AudioFile>03ATradersLife.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="03ATradersLife" ID="{90E9DB5D-BB17-4820-8420-F0693BE04ADE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="06MoribundWorld" ID="{58DBFB0E-5373-40F5-97F2-81820A1A3D7F}" ShortID="269059314" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="06MoribundWorld" ID="{EE8C0262-7AF0-45AA-9149-859F72DFB28F}" ShortID="344414186">
+							<Language>SFX</Language>
+							<AudioFile>06MoribundWorld.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="06MoribundWorld" ID="{EE8C0262-7AF0-45AA-9149-859F72DFB28F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="11CityofLostAngels" ID="{774B394F-7307-448A-BD28-589CD7EC322C}" ShortID="683455660" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="11CityofLostAngels" ID="{984317CC-279F-43CC-A4BA-4BEA53D59178}" ShortID="326076301">
+							<Language>SFX</Language>
+							<AudioFile>11CityofLostAngels.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="11CityofLostAngels" ID="{984317CC-279F-43CC-A4BA-4BEA53D59178}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="04TheVaultoftheFuture" ID="{ECD73E2D-31A1-4D4B-B9FF-335AAD24E896}" ShortID="658149530" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C1C88111-D5B6-4F70-A99E-BCF122F22652}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{6A646CC8-E475-413D-B45A-F43A72BB9B22}" WorkUnitID="{698D6B1E-7D5A-41FC-82DF-D497B97C28BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="04TheVaultoftheFuture" ID="{BB1044A6-7861-4060-9301-4B3BC3027277}" ShortID="206783348">
+							<Language>SFX</Language>
+							<AudioFile>04TheVaultoftheFuture.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="04TheVaultoftheFuture" ID="{BB1044A6-7861-4060-9301-4B3BC3027277}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

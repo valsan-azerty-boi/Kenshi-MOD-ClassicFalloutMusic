@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{147C6CE4-364F-4B83-B752-ACF73DB3528F}" SchemaVersion="69">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{147C6CE4-364F-4B83-B752-ACF73DB3528F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MT_Music_Bank" ID="{C33F99F6-4683-4044-A7CE-043ADE887942}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Boot_Up_Game" ID="{8CE45F3E-AE7C-4B39-9B1C-43CF60AF7BCC}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Resume_Game" ID="{5FA5DA85-E211-46C0-9CF7-3969F5F744DA}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Create_or_Load_Game" ID="{7C7AE388-F2C2-4E72-AD51-8F87914C22B4}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause_Game" ID="{42A400B3-E1AD-4913-AF9E-FA7ABD7D794B}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dunes_Music_Bank" ID="{40AC148A-4A14-4482-8F22-290EBD931E24}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enter_Ashlands_Day" ID="{56DF2D13-7F19-489C-9F84-5C6C9A6975B6}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Ashlands_Night" ID="{0FE37414-3051-44F4-A9B2-3537CCB0A8AD}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Desert_Day" ID="{9A708360-48B5-4E73-AA49-9D78465CAFD8}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Desert_Night" ID="{EA3FAD7B-0748-455C-8220-1B3B2D263C4F}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Desert" ID="{809D06BC-C6AE-4AB0-B794-996CB64D70F2}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Ashlands" ID="{D3036EE6-8D66-413A-BF76-3CD2E6EA8266}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Savannah_Music_Bank" ID="{C0D28468-8BE4-4DCF-A236-96AF2FC580EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enter_Plains_Night" ID="{06D92D02-8935-4071-A90C-A2D2AD7CDFD5}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Coast" ID="{B7FFFF0F-06EA-416C-A76E-0D63E083EDB6}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Coast_Night" ID="{8C11D432-21D3-45D3-9D3B-C9A6CA91E6FE}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Plains_Day" ID="{A34212A8-D858-43BA-BD32-CA448A11110F}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Plains" ID="{6E4E9BC7-FEF9-4A3D-B101-2C19152B7024}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Coast_Day" ID="{263BDBCB-78E2-4E78-990A-6A1C06BCC0A7}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Swamplands_Music_Bank" ID="{2FDF227F-2C8C-4500-84F7-31803D0578E6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enter_Swamplands_Day" ID="{AECD3040-786F-48D2-9FD1-E5444420D6F5}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Boneyard_Night" ID="{A5EFDB5E-126E-4319-A518-9D847C9B8E30}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Jungle_Day" ID="{DFF9E678-C0FC-4A51-89F5-DDD540799C89}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Boneyard" ID="{F2035E80-2DF6-4B49-85CF-9814A789C58E}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Boneyard_Day" ID="{35DE3697-A4A4-482E-9EA5-FF67B5C0E83B}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Swamplands_Night" ID="{3B1EA99D-0E79-4113-A72C-A738763797C4}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Jungle_Night" ID="{40A509AD-5032-4061-B68F-3FE40CF8301D}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Swamplands" ID="{4373F5D1-3BCE-4C70-B1E8-B9E68F260268}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Jungle" ID="{775333DA-5C27-41A7-BA1B-EDCF18A17E62}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Tarsands_Music_Bank" ID="{326DCE1C-3D2F-468C-A820-D6B8D4833E82}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Enter_Forest_Day" ID="{4E10810E-8A8F-4A4C-9F10-5BEDB06344C8}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Forest_Night" ID="{1ECC176D-FCBB-4A6C-9162-C9D5345D5138}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Forest" ID="{C07F7893-0774-45F4-B703-DBF790E4A22F}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Tarsands_Day" ID="{EF1C7CB0-A9CE-4E63-8302-96A565AB81EF}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Enter_Tarsands_Night" ID="{875A17B5-2B83-4F51-B7C3-0ACB967E8859}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Leave_Tarsands" ID="{721797DE-E548-4D96-B56C-D2D880B6E9B1}" WorkUnitID="{30AA45B0-C7BE-4624-8A70-5078DE9E7DCB}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

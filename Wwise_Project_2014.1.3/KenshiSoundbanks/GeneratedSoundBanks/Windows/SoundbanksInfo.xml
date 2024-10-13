@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" SchemaVersion="10" SoundbankVersion="112">
+	<RootPaths>
+		<ProjectRoot>C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<SoundBanks>
+		<SoundBank Id="70005164" Language="SFX">
+			<ShortName>Tarsands_Music_Bank</ShortName>
+			<Path>Tarsands_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="374233060" Name="Enter_Forest_Day"/>
+				<Event Id="1356999456" Name="Enter_Forest_Night"/>
+				<Event Id="4268409197" Name="Enter_Tarsands_Day"/>
+				<Event Id="393713377" Name="Enter_Tarsands_Night"/>
+				<Event Id="2744650094" Name="Leave_Forest"/>
+				<Event Id="4037757403" Name="Leave_Tarsands"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="164439697" Language="SFX">
+					<ShortName>15FlameoftheAncientWorld.wav</ShortName>
+					<Path>SFX\15FlameoftheAncientWorld_DB50BAB0.wem</Path>
+				</File>
+				<File Id="794718253" Language="SFX">
+					<ShortName>14AcolytesoftheNewgod.wav</ShortName>
+					<Path>SFX\14AcolytesoftheNewgod_DB50BAB0.wem</Path>
+				</File>
+				<File Id="810294763" Language="SFX">
+					<ShortName>08CityoftheDead.wav</ShortName>
+					<Path>SFX\08CityoftheDead_DB50BAB0.wem</Path>
+				</File>
+				<File Id="1054828289" Language="SFX">
+					<ShortName>02DesertWind.wav</ShortName>
+					<Path>SFX\02DesertWind_DB50BAB0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1558920491" Language="SFX">
+			<ShortName>MT_Music_Bank</ShortName>
+			<Path>MT_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2104026096" Name="Boot_Up_Game"/>
+				<Event Id="1683297147" Name="Create_or_Load_Game"/>
+				<Event Id="528278262" Name="Pause_Game"/>
+				<Event Id="1565052233" Name="Resume_Game"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="326076301" Language="SFX">
+					<ShortName>11CityofLostAngels.wav</ShortName>
+					<Path>SFX\11CityofLostAngels_DB50BAB0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1860344563" Language="SFX">
+			<ShortName>Dunes_Music_Bank</ShortName>
+			<Path>Dunes_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="413858485" Name="Enter_Ashlands_Day"/>
+				<Event Id="69152137" Name="Enter_Ashlands_Night"/>
+				<Event Id="2278413084" Name="Enter_Desert_Day"/>
+				<Event Id="291784504" Name="Enter_Desert_Night"/>
+				<Event Id="3846383483" Name="Leave_Ashlands"/>
+				<Event Id="4245328538" Name="Leave_Desert"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="103194199" Language="SFX">
+					<ShortName>Redding.wav</ShortName>
+					<Path>SFX\Redding_DB50BAB0.wem</Path>
+				</File>
+				<File Id="457183362" Language="SFX">
+					<ShortName>NewReno.wav</ShortName>
+					<Path>SFX\NewReno_DB50BAB0.wem</Path>
+				</File>
+				<File Id="594768905" Language="SFX">
+					<ShortName>Worldmap1.wav</ShortName>
+					<Path>SFX\Worldmap1_DB50BAB0.wem</Path>
+				</File>
+				<File Id="868527054" Language="SFX">
+					<ShortName>Worldmap2.wav</ShortName>
+					<Path>SFX\Worldmap2_DB50BAB0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2519115762" Language="SFX">
+			<ShortName>Savannah_Music_Bank</ShortName>
+			<Path>Savannah_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2309286801" Name="Enter_Coast_Day"/>
+				<Event Id="1750660853" Name="Enter_Coast_Night"/>
+				<Event Id="3143081336" Name="Enter_Plains_Day"/>
+				<Event Id="533473860" Name="Enter_Plains_Night"/>
+				<Event Id="3428908557" Name="Leave_Coast"/>
+				<Event Id="2778888170" Name="Leave_Plains"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="411758817" Language="SFX">
+					<ShortName>10UndergroundTroubles.wav</ShortName>
+					<Path>SFX\10UndergroundTroubles_DB50BAB0.wem</Path>
+				</File>
+				<File Id="491223752" Language="SFX">
+					<ShortName>Arroyo.wav</ShortName>
+					<Path>SFX\Arroyo_DB50BAB0.wem</Path>
+				</File>
+				<File Id="772292523" Language="SFX">
+					<ShortName>16KhansofNewCalifornia.wav</ShortName>
+					<Path>SFX\16KhansofNewCalifornia_DB50BAB0.wem</Path>
+				</File>
+				<File Id="890297917" Language="SFX">
+					<ShortName>07VatsofGoo.wav</ShortName>
+					<Path>SFX\07VatsofGoo_DB50BAB0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="4049107720" Language="SFX">
+			<ShortName>Swamplands_Music_Bank</ShortName>
+			<Path>Swamplands_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="147444461" Name="Enter_Boneyard_Day"/>
+				<Event Id="3385640033" Name="Enter_Boneyard_Night"/>
+				<Event Id="71455468" Name="Enter_Jungle_Day"/>
+				<Event Id="2225123336" Name="Enter_Jungle_Night"/>
+				<Event Id="2157835841" Name="Enter_Swamplands_Day"/>
+				<Event Id="2869076709" Name="Enter_Swamplands_Night"/>
+				<Event Id="214086387" Name="Leave_Boneyard"/>
+				<Event Id="3182333694" Name="Leave_Jungle"/>
+				<Event Id="473331911" Name="Leave_Swamplands"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="173401944" Language="SFX">
+					<ShortName>05IndustrialJunk.wav</ShortName>
+					<Path>SFX\05IndustrialJunk_DB50BAB0.wem</Path>
+				</File>
+				<File Id="199859378" Language="SFX">
+					<ShortName>01MetallicMonks.wav</ShortName>
+					<Path>SFX\01MetallicMonks_DB50BAB0.wem</Path>
+				</File>
+				<File Id="304310188" Language="SFX">
+					<ShortName>13RadiationStorm.wav</ShortName>
+					<Path>SFX\13RadiationStorm_DB50BAB0.wem</Path>
+				</File>
+				<File Id="344414186" Language="SFX">
+					<ShortName>06MoribundWorld.wav</ShortName>
+					<Path>SFX\06MoribundWorld_DB50BAB0.wem</Path>
+				</File>
+				<File Id="865752233" Language="SFX">
+					<ShortName>Modoc.wav</ShortName>
+					<Path>SFX\Modoc_DB50BAB0.wem</Path>
+				</File>
+				<File Id="943926152" Language="SFX">
+					<ShortName>09SecondChance.wav</ShortName>
+					<Path>SFX\09SecondChance_DB50BAB0.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

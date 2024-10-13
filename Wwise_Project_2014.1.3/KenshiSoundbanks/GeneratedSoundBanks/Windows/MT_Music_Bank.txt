@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	528278262	Pause_Game			\Default Work Unit\MT_Music_Bank\Pause_Game	
+	1565052233	Resume_Game			\Default Work Unit\MT_Music_Bank\Resume_Game	
+	1683297147	Create_or_Load_Game			\Default Work Unit\MT_Music_Bank\Create_or_Load_Game	
+	2104026096	Boot_Up_Game			\Default Work Unit\MT_Music_Bank\Boot_Up_Game	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	326076301	11CityofLostAngels	C:\Users\valen\Documents\WwiseProjects\KenshiSoundbanks\.cache\Windows\SFX\11CityofLostAngels_DB50BAB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\11CityofLostAngels		3093899
+
