@@ -3,6 +3,8 @@
 ## What does this mod do ?
 This mod replaces Kenshi's background music with themes from classic Fallout games (1, 2 and Tactics).
 
+[![Classic Fallout Music for Kenshi: demonstration](./images/mod-demo.png)](./images/mod-demo.mp4)
+
 ## Mod Requirements/Dependencies:
 - Kenshi (the game): [Steam](https://store.steampowered.com/app/233860/Kenshi)
 - The RE_Kenshi mod: [Nexus](https://www.nexusmods.com/kenshi/mods/847) - [GitHub](https://github.com/BFrizzleFoShizzle/RE_Kenshi)
@@ -10,7 +12,7 @@ This mod replaces Kenshi's background music with themes from classic Fallout gam
 ## How to install the mod
 - 2 possible ways
     - Way 1: Download the mod on Nexus. Unpack the mod (folder "ClassicFalloutMusic" from the archive) into your "/Kenshi/mods" folder, the folder structure will be "/Kenshi/mods/ClassicFalloutMusic". Launch the game and don't forget to activate the mod in the mod list.
-    - Way 2: Just install via Steam Workshop (you need RE_Kenshi too in this case). Launch the game and don't forget to activate the mod in the mod list.
+    - Way 2: Just install via Steam Workshop (you need RE_Kenshi too in this case). Launch the game and don't &forget to activate the mod in the mod list.
 
 ## Technical informations
 Unlike other video games where sounds are easily moddable, replacing sound files in Kenshi is much more technical. This requires a bit of reverse engineering and log analysis, for example to find the correct audio bus and events.
