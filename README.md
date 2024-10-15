@@ -3,8 +3,7 @@
 ## What does this mod do ?
 This mod replaces Kenshi's background music with themes from classic Fallout games (1, 2 and Tactics).
 
-[![Classic Fallout Music for Kenshi: demonstration](./images/mod-demo.png)](./images/mod-demo.mp4)
-<iframe src="https://raw.githubusercontent.com/valsan-azerty-boi/Kenshi-MOD-ClassicFalloutMusic/refs/heads/master/images/mod-demo.mp4" width="400" frameBorder="0" allowFullScreen></iframe>
+https://github.com/user-attachments/assets/0a906e5d-c17d-4578-a626-66c230ed4c36
 
 ## Mod Requirements/Dependencies:
 - Kenshi (the game): [Steam](https://store.steampowered.com/app/233860/Kenshi)
